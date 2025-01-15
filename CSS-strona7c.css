@@ -17,6 +17,7 @@
     .psnv{
         width: 15vw;
         text-align: center;
+        line-spacing:2vh;
     }
        
     }
@@ -39,6 +40,7 @@
     .psnv{
         width: 15vw;
         text-align: center;
+        line-spacing:2vh;
     }
    }
    @media screen and ( min-width: 1200px){
@@ -97,7 +99,7 @@ a{
 .psnv{
     float: left;
     background-color: darkgray;
-    height: 100vh;
+    height: 100%;
     font-size:calc(8px + 1.5vw);
     opacity: 60%;
 }
