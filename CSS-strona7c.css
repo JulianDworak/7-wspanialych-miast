@@ -1,0 +1,115 @@
+@media screen and ( max-width: 600px){
+    body{
+     
+     
+       padding-left: 5px;
+       padding-right: 5px;}
+       #trgt{
+        width: 70vw;
+        align-self: center;
+        clear: both;
+       }
+       .ifr{
+        width: 70vw;
+       height: 45vw;
+       
+    }
+    .psnv{
+        width: 15vw;
+        text-align: center;
+    }
+       
+    }
+    @media screen and (max-width: 1200px){
+       body{
+         
+          
+          padding-left: 5px;
+       padding-right: 5px;
+       
+       }
+       #trgt{
+        clear: both;
+        width: 75vw;
+       }
+       .ifr{
+        width: 60vw;
+       height: 55vw;
+    }
+    .psnv{
+        width: 15vw;
+        text-align: center;
+    }
+   }
+   @media screen and ( min-width: 1200px){
+       body{
+     
+         
+          color: white;
+       }
+       #trgt{
+        width: 60vw;
+       }
+       .ifr{
+        width: 50vw;
+       height: 35vw;
+    }
+    .psnv{
+        width: 10vw;
+    }
+
+    }
+    @keyframes anim{
+ 0%{
+    opacity: 100%;
+ }
+ 100%{
+    opacity: 0%;
+ }
+    }
+body{
+    background-image: url(imgs/tlo.jpg);
+    height: 100vh;
+}
+#logo{
+    background-color: darkslategray;
+    color: white;
+    font-variant: small-caps;
+    font-size: xx-large;
+    text-align: center;
+    width: calc(100px + 8vw);
+    align-content: center; 
+    margin:auto;
+   text-shadow: 3px 1px #000000;
+}
+#tytl{
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    text-decoration-line: none;
+}
+.psnv{
+    float: left;
+    background-color: darkgray;
+    height: 100vh;
+    font-size:calc(8px + 1.5vw);
+    opacity: 60%;
+}
+#trgt{
+    height: 75vh;
+    align-self: center;
+}
+#tabl{
+    width: 100%;
+}
+.zdj{
+    height: 50vh;
+    width: 60vw;
+    position:static;
+}
+div .zdj{
+    align-content: center;
+}
