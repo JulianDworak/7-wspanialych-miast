@@ -113,3 +113,6 @@ a{
 div .zdj{
     align-content: center;
 }
+ul{
+list-style-type: none;
+}
